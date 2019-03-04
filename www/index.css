@@ -29,7 +29,8 @@ h1 {
 h2 {
     color: #14664a;
     font-size: 1.5em;
-    margin-bottom: .5em
+    margin-bottom: .5em;
+    text-align: center;
 }
 
 h4 {
@@ -41,11 +42,26 @@ p {
     font-size: 1em;
     line-height: 1.5;
     margin-top: 1em;
+    margin-bottom: 1em;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-/*******************************/
+/**********Billeder*************/
 
+.logo {
+    max-width: 15%;
+    float: left;
+    margin: 0 0 1em 2em;
+    box-shadow: none;
+}
+
+
+img {
+    width: 100%;
+    max-height: 450px;
+    background-color: white;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 /***********Knapper************/
 
@@ -90,12 +106,7 @@ p {
     color: #e6f2ee;
 }
 
-.logo {
-    max-width: 15%;
-    float: left;
-    margin: 0 0 1em 2em;
-    box-shadow: none;
-}
+/**********Navigation************/
 
 .navpunkter {
     height: 3em;
@@ -123,6 +134,12 @@ a:hover {
   color: #2fc7ea;
 }
 
+/***********paneler*************/
+
+section {
+    margin-bottom: 4em;
+}
+
 .toppanel {
     clear: both;
     padding: 1em 2em;
@@ -133,6 +150,7 @@ a:hover {
 }
 
 .midterpanel {
+    clear: both;
     padding: 1em 2em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -158,30 +176,15 @@ a:hover {
 }
 
 .midtercitat {
-    width: 50%;
+    width: 80%;
     margin: auto;
-    font-family: 'Libre Baskerville', serif;
-    color: #62d9b1;
 }
-
-div .citatnavn {
-    text-align: right;
-    margin-top: 2em;
-}
-
-img {
-    width: 100%;
-    max-height: 450px;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-
 
 .tommerup {
-    width: 60%;
+    width: 40%;
     display: block;
     margin: auto;
+    box-shadow: none;
 }
 
 .box2 {
