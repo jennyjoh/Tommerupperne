@@ -47,14 +47,12 @@ p {
 }
 
 /**********Billeder*************/
-
 .logo {
-    max-width: 15%;
+    max-width: 20%;
     float: left;
     margin: 0 0 1em 2em;
     box-shadow: none;
 }
-
 
 img {
     width: 100%;
@@ -105,7 +103,6 @@ img {
     margin-left: 2em;
     color: #e6f2ee;
 }
-
 /**********Navigation************/
 
 .navpunkter {
@@ -163,6 +160,7 @@ section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
+    text-align: justify;
 }
 
 .artikelkasse {
