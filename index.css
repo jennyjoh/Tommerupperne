@@ -90,7 +90,6 @@ img {
     text-align: center;
     color: #e6f2ee;
     background-color: #293033;
-    padding: .5em;
     line-height: 1.5;
     height: 3em;
     background: rgba(41, 48, 51, 0.9)
@@ -135,6 +134,10 @@ a:hover {
 
 section {
     margin-bottom: 4em;
+}
+
+.banner {
+    box-shadow: none;
 }
 
 .toppanel {
