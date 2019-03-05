@@ -32,8 +32,12 @@ h2 {
     text-align: center;
 }
 
-h4 {
-    font-size: 18px;
+h3 {
+    font-size: 1.6em;
+    line-height: 1.5;
+    font-variant-caps: all-petite-caps;
+    width: 50%;
+    margin: auto;
 }
 
 p {
@@ -64,6 +68,7 @@ img {
     color: #293033;
     padding: .5em;
     margin-top: .5em;
+    margin-bottom: .5em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -131,15 +136,31 @@ section {
     margin-bottom: 4em;
 }
 
-.banner {
-    box-shadow: none;
+.arrangement {
+    width: 70%;
+    margin: auto;
+    padding: 2em;
+    border: #e6f2ee solid 4px;
+    box-shadow: 12px 9px 0px -4px rgba(230,242,238,0.17);
+}
+
+.arrangement p {
+    font-size: 1.25em;
+}
+
+.faktaboks {
+    font-family: 'Libre Baskerville', serif;
+    background-color: #14664a;
+    color: #e6f2ee;
+    padding: 4em 0;
+    text-align: center;
 }
 
 .toppanel {
     clear: both;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 5%;
+    grid-gap: 2%;
     background-color: #e6f2ee;
     margin-bottom: 2em;
 }
@@ -180,7 +201,6 @@ section {
     width: 40%;
     display: block;
     margin: auto;
-    box-shadow: none;
 }
 
 .box2 {
