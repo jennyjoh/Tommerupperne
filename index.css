@@ -70,6 +70,10 @@ img {
     width: 100%;
 }
 
+.ikon {
+    max-height: 40px;
+    max-width: 40px;
+}
 /***********Knapper************/
 
 .button {
@@ -228,7 +232,12 @@ footer .container {
 }
 
 .footerafsnit {
+    padding-right: 1em;
     list-style-type: none;
     font-size: 1.2em;
     font-variant-caps: all-petite-caps;
+}
+
+footer a {
+    color:#e6f2ee;   
 }
