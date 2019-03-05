@@ -75,7 +75,7 @@ img {
     max-height: 40px;
     max-width: 40px;
 }
-/***********Knapper************/
+/***********Knapper og links ************/
 
 .button {
     background-color: #62d9b1;
@@ -92,6 +92,10 @@ img {
     font-weight: 600;
     font-variant: small-caps;
     border-radius: 12px;
+}
+
+a {
+    color: #24b383;
 }
 
 /************* header panel ******************/
@@ -166,7 +170,7 @@ section {
 }
 
 .arrangement p {
-    font-size: 1.25em;
+    font-size: 1.2em;
 }
 
 .faktaboks {
