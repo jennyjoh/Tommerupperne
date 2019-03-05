@@ -19,10 +19,11 @@ img {
 /**************** Typografi ***************/
 
 h1 {
-    color: #283033;
-    font-size: 2em;
+    color: #14664a;
+    font-size: 2.5em;
     margin-bottom: .5em;
-    line-height: 1.2;
+    text-align: center;
+    font-variant-caps: all-petite-caps;
 }
 
 h2 {
@@ -150,6 +151,12 @@ section {
     margin-bottom: 4em;
 }
 
+.overskrift {
+    text-align: left;
+    font-size: 2em;
+    margin: 0;
+}
+
 .arrangement {
     width: 70%;
     margin: auto;
@@ -168,6 +175,7 @@ section {
     color: #e6f2ee;
     padding: 4em 0;
     text-align: center;
+    margin-bottom: 4em;
 }
 
 .toppanel {
@@ -202,8 +210,9 @@ section {
 }
 
 .tommerup {
-    width: 40%;
     display: block;
+    max-width: 170px;
+    max-height: 200px;
     margin: auto;
 }
 
