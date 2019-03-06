@@ -226,6 +226,10 @@ section {
     padding-right: 2em;
 }
 
+.box2 h3 {
+    margin: 0;    
+}
+
 /*********** footer *************/
 
 footer {
