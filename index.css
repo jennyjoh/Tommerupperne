@@ -214,11 +214,15 @@ section {
 }
 
 .tommerup {
+    max-height: 300px;
+    
+}
+/*.tommerup {
     display: block;
     max-width: 170px;
     max-height: 200px;
     margin: auto;
-}
+}*/
 
 .box2 {
     width: 100%;
