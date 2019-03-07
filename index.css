@@ -69,6 +69,7 @@ p {
 
 img {
     width: 100%;
+    height: auto;
 }
 
 .ikon {
@@ -201,16 +202,12 @@ section {
 
 .bundpanel {
     clear: both;
-    padding: 1em 2em;
+    margin: 0 2em;
+    padding-bottom: 2em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
     text-align: justify;
-}
-
-.midtercitat {
-    width: 80%;
-    margin: auto;    
 }
 
 .box2 {
@@ -221,6 +218,11 @@ section {
 
 .box2 h3 {
     margin: 0;
+}
+
+.video {
+    width: 100%;
+    height: auto;
 }
 
 /*********** footer *************/
@@ -250,4 +252,14 @@ footer .container {
 
 footer a {
     color:#e6f2ee;   
+}
+
+.sidste {
+    font-variant-caps: normal;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: .8em;
+}
+
+.sidste {
+    padding: .8em 0;
 }
